@@ -1,0 +1,26 @@
+.ps-note-add-pics-text {
+    color: rgb(90, 90, 90) !important;
+    font-size: 2.2em !important;
+    text-align: center;
+    font-family: Playfair Display,Georgia,serif !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+}
+
+#pronovias-carousel-product .ps-image {
+  width: calc(20% - 16px) !important;
+}
+#pronovias-carousel-product .ps-image img {
+  object-fit: contain;
+}
+@media screen and (max-width: 425px) {
+    #pronovias-carousel-product .ps-image {
+      width: calc(100% - 16px) !important;
+    }
+}
+
+.ps-info {
+	position: static !important;
+}

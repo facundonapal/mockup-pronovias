@@ -268,7 +268,7 @@ td,th {
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot");
-    src: url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff") format("woff"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
+    src: url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("../assets/fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff") format("woff"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
 }
 
 .glyphicon {
@@ -9743,11 +9743,11 @@ button.button span {
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {
-    font-family: 'FontAwesome';
-    src: url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0");
-    src: url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix") format("embedded-opentype"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0") format("woff2"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0") format("woff"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0") format("truetype"),url("https://www.pronovias.com/skin/frontend/interactiv4/pronovias/fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
-    font-weight: normal;
-    font-style: normal
+  font-family: 'FontAwesome';
+  src: url('../assets/fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../assets/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../assets/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../assets/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../assets/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../assets/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .fa {
@@ -10468,7 +10468,7 @@ button.button span {
 }
 
 .fa-heart-o:before {
-    content: "ï‚Š"
+    content: ""
 }
 
 .fa-sign-out:before {
@@ -45900,7 +45900,7 @@ span.country-name,.dial-code {
 @font-face {
     font-family: "pronovias";
     src: url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.eot");
-    src: url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.eot?#iefix") format("embedded-opentype"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.woff2") format("woff2"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.woff") format("woff"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.ttf") format("truetype"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.svg#pronovias") format("svg");
+    src: url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.eot?#iefix") format("embedded-opentype"),url("../assets/fonts/pronovias.woff2") format("woff2"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.woff") format("woff"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.ttf") format("truetype"),url("/skin/frontend/interactiv4/pronovias/fonts/pronovias.svg#pronovias") format("svg");
     font-style: normal;
     font-weight: normal
 }
@@ -45908,7 +45908,7 @@ span.country-name,.dial-code {
 @font-face {
     font-family: "glyphicons-halflings-regular";
     src: url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot");
-    src: url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff") format("woff"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular") format("svg");
+    src: url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("../assets/fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.woff") format("woff"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("/skin/frontend/interactiv4/pronovias/fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular") format("svg");
     font-style: normal;
     font-weight: normal
 }
@@ -46694,4 +46694,42 @@ hr.amconf-hr {
     font-size: 14px;
     line-height: 16px;
     padding: 3px 4px;
+}
+
+
+/*=========================
+    PHOTOSLURP STYLES
+==========================*/
+
+#pronovias-carousel-home .ps-image {
+  width: calc(20% - 16px) !important;
+}
+#pronovias-carousel-home .ps-image img {
+  object-fit: contain;
+}
+@media screen and (max-width: 425px) {
+    #pronovias-carousel-home .ps-image {
+      width: calc(100% - 16px) !important;
+    }
+}
+
+.ps-info {
+    position: static !important;
+}
+
+
+
+#pronovias-carousel-home {
+    margin-bottom: 100px !important;
+}
+
+.ps-note-add-pics-text {
+    color: rgb(90, 90, 90) !important;
+    font-size: 2.2em !important;
+    text-align: center;
+    font-family: Playfair Display,Georgia,serif !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    margin-top: 20px !important;
+    width: 100% !important;
 }
