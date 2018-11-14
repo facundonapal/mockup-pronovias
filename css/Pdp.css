@@ -1,12 +1,25 @@
-.ps-note-add-pics-text {
-    color: rgb(90, 90, 90) !important;
-    font-size: 2.2em !important;
-    text-align: center;
-    font-family: Playfair Display,Georgia,serif !important;
-    font-weight: 400 !important;
-    text-transform: uppercase !important;
-    margin-top: 20px !important;
-    width: 100% !important;
+@media screen and (min-width: 991px)
+.botonera {
+	min-width: 570px;
+}
+
+
+.title-carousel {
+    text-align: left;
+    margin-bottom: 24px !important;
+    margin-top: 48px;
+    margin-left: 3%;
+}
+
+#title-carousel-product {
+    margin: 9px 0 0 0;
+    font-size: 25px;
+    color: #57504c;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Playfair Display,Georgia,serif;
+    font-weight: 400; 
 }
 
 #pronovias-carousel-product .ps-image {
@@ -23,4 +36,8 @@
 
 .ps-info {
 	position: static !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+	padding-left: 41px !important;
 }
